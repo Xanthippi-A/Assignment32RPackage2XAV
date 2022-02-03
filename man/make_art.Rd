@@ -7,7 +7,7 @@ Creates random art using the geom_point function
 \description{
 The function creates random art using the geom_point function (from package ggplot2) and the viridis colour palette.
 If the user defines a seed, the function uses it in sampling the colour, plotting start point and power at which x and y are raised.
-Otherwise the function generates a random seed.
+Otherwise the function generates random seeds.
 The function installs and loads the required packages dplyr, ggplot2 and viridis if necessary.
 !!!WARNING: Depending on the machine, the function may take several minutes!!!
 }
@@ -51,7 +51,7 @@ Xanthippi Alexi Vassiliou
 ## Generate an image with a user defined seed
 make_art(555)
 
-## Generate an image using a random seed
+## Generate an image using random seeds
 make_art()
 
 % Add one or more standard keywords, see file 'KEYWORDS' in the
