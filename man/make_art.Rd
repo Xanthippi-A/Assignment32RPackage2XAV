@@ -48,10 +48,10 @@ Xanthippi Alexi Vassiliou
 }
 \examples{
 
-## Generating an image with a user defined seed
+## Generate an image with a user defined seed
 make_art(555)
 
-## Generating an image using a random seed
+## Generate an image using a random seed
 make_art()
 
 % Add one or more standard keywords, see file 'KEYWORDS' in the
